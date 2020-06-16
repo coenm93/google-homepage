@@ -1,0 +1,163 @@
+<!doctype html>
+<style>
+
+#googleimage {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 20%;
+}
+
+#searchform {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 20%;
+}
+
+#search-button {
+  float: left;
+  display: block;
+  margin-left: 40%;
+  margin-right: 1%;
+  width: 10%;
+}
+
+#lucky-button {
+  float: left;
+  display: block;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 10%;
+}
+
+input {
+  background-color: transparent;
+  width: 100%;
+}
+
+button {
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #5F6368;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5%;
+  border: 1px solid #f2f2f2;
+  padding: 5px 12px;
+  margin: 11px 4px;
+}
+
+#language-selector {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 20%;
+}
+
+#top-navigation {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.bottom-navigation {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0%;
+  color: #848484;
+  width: 100%;
+}
+.bottom-navigation-country {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  margin-bottom: 35px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0%;
+  color: #848484;
+  width: 100%;
+  border-bottom: paleturquoise;
+}
+
+li {
+  float: right;
+  padding: 10px 14px;
+}
+
+</style>
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+
+<ul id="top-navigation">
+  <li>Gmail</li>
+  <li>Images</li>
+  <li>Profile</li>
+  <li>Menu</li>
+</ul>
+
+<div id="googleimage">
+  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"> 
+</div>
+
+<div id="searchform"> 
+  <form action="" method="GET">
+    <label for="searchcommand"></label>
+    <input type="text" name="searchcommand" id="searchcommand">
+  </form>
+</div>
+
+<div id="search-button"> 
+  <button type="button">Search</button>
+</div>
+
+<div id="lucky-button">
+  <button type="button">I'm feeling lucky</button>
+</div>
+
+<div id="language-selector">
+  <p>Google offered in: <strong>Nederlands Frysk</strong></p>
+</div>
+
+<ul class="bottom-navigation-country">
+  <li style="float: left">Netherlands</li>
+</ul>
+
+<ul class="bottom-navigation">
+  <li style="float: left">Advertising</li>
+  <li style="float: left">Business</li>
+  <li style="float: left">About</li>
+  <li style="float: left">How Search works</li>
+  <li style="float: right">Privacy</li>
+  <li style="float: right">Terms</li>
+  <li style="float: right">Settings</li>
+</ul>
+
+</body>
+</html>
